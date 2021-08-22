@@ -8,8 +8,11 @@ edit names.json with new characters under a key. the key is what you use for the
 
 all of the possible tags are included in the "_EXAMPLE" character.. study them
 
+also html/bbcode tags accept attributes. like if you type `b style='color:red'` into a html tag string it will actually style like that.
+
 ### write dialogue
 names are defined before a colon (:). so if you type `_EXAMPLE: fart poo poo` then "_EXAMPLE" will be the name of the character.
+
 the character's name should ideally match a key in the characters `json` file, not the actual **display name** of the character. if it doesn't, no biggie - it just won't add fancy bbcode to it
 
 ### generate dialogue
@@ -18,3 +21,6 @@ the character's name should ideally match a key in the characters `json` file, n
 4. type "CMD" into the explorer address bar with the folder containing this code in
 5. type "node write" into node
 6. output file is created in the same folder
+
+## to-do when motivated
+* text replacements a la mxrp, for troll quirks
