@@ -1,0 +1,30 @@
+{
+  "_EXAMPLE" : {
+	"replaceName": "Example Name",
+	"color": "#888",
+	"textColor": "#bbb",
+	"nameClass": "dialogueName",
+	"textClass": "dialogueText",
+	"dialogueClass": "dialogue",
+	"bbTags": ["b"],
+	"htmlTags": ["i", "u"]
+  },
+  "SISERA": {
+    "color": "#ffc1f0"
+  },
+  "URIEL": {
+    "color": "#ff7400"
+  },
+  "ADAM": {
+    "color": "#69a612"
+  },
+  "MORGAN": {
+    "color": "#73a5ce"
+  },
+  "LUCAS": {
+    "color": "#8e8e8e"
+  },
+  "ISAIAH": {
+    "color": "#ffed4f"
+  }
+}
