@@ -24,3 +24,4 @@ the character's name should ideally match a key in the characters `json` file, n
 
 ## to-do when motivated
 * text replacements a la mxrp, for troll quirks
+* invisible but still-screen readable names. you can do it manually but not everyone knows how to
