@@ -5,6 +5,7 @@ convert dialogue into formatted bbcode + html for use on mspfa the website
 
 ### add characters
 1. edit names.json
+
 all of the possible tags are included in the "_EXAMPLE" character.. study them
 
 ### generate dialogue
