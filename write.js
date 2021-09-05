@@ -24,8 +24,9 @@ function applyNameDataToLine(line) {
 
   //  strings to format into the dialogue
   let l = {
-    name: (charData.replaceName ? charData.replaceName : lineParts[0].trimEnd()) + ":",
+    name: charData.replaceName ? charData.replaceName : lineParts[0].trimEnd(),
     speech: lineParts[1] ? lineParts[1].trimStart() : "",
+    separator: charData.separator ? charData.separator + " " : ": ",
     nPre: "",
     nSuf: "",
     sPre: "",
@@ -79,7 +80,7 @@ function applyNameDataToLine(line) {
 
   // return our new dialogue
   let outputName = l.nPre + l.name + l.nSuf;
-  let outputSpeech = l.speech ? " " + l.sPre + l.speech + l.sSuf : "";
+  let outputSpeech = l.speech ? l.sPre + l.separator + l.speech + l.sSuf : "";
   return l.dPre + outputName + outputSpeech + l.dSuf;
 }
 
