@@ -1,0 +1,28 @@
+{
+	"_EXAMPLE": {
+		"replaceName": "Example Name",
+    "separator" : " -",
+
+		"nameColor": "#888",
+		"speechColor": "#bbb",
+		"dialogueColor": "#00f",
+
+		"nameClass": "#888",
+		"speechClass": "#bbb",
+		"dialogueClass": "#00f",
+
+		"namebbTags": ["b"],
+		"namehtmlTags": [],
+		"speechbbTags": ["i"],
+		"speechhtmlTags": [],
+		"dialoguebbTags": ["u"],
+		"dialoguehtmlTags": []
+	},
+
+	"SISERA": { "dialogueColor": "#ffc1f0" },
+	"URIEL": { "dialogueColor": "#ff7400" },
+	"ADAM": { "dialogueColor": "#69a612" },
+	"MORGAN": { "dialogueColor": "#73a5ce" },
+	"LUCAS": { "dialogueColor": "#8e8e8e" },
+	"ISAIAH": { "dialogueColor": "#ffed4f" }
+}

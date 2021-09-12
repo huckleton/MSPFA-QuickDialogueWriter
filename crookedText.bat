@@ -1,0 +1,2 @@
+cd ./scripts
+node crookedText
